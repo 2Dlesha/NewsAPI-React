@@ -1,0 +1,173 @@
+.source-div
+{
+    display: inline-block;
+    min-width: 200px;
+	margin: 5px;
+	width: 16%;
+	padding: 10px 0;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 10px;
+	color: aliceblue;
+	border-width: 5px;
+	border-color: rgb(170, 146, 37);
+}
+
+.source-div:hover
+{
+	color: rgb(204, 201, 28);
+}
+
+
+body,html {
+	font-family: Comic Sans MS;
+	background-color: rgb(73, 2, 2);
+	margin: 0 ,auto;
+}
+
+.current-source
+{   
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-top: 10px; 
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: aliceblue;
+	background-color: rgb(0, 0, 0);
+}
+
+.select-source{
+	min-width: 100%;
+	min-height: 50px;
+	display: flex;
+	overflow-y: hidden;
+    overflow-x: scroll;
+    margin:0;
+	padding:0;
+}
+
+.select-source::-webkit-scrollbar {
+	display: none;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.no-match
+{
+	padding: 20px;
+	margin: 20px;
+	border-style: solid;
+	border-bottom: 1px solid grey;
+	background-color: black;
+	border-radius: 30px;
+	color: white;
+}
+
+.article-div
+{
+	padding: 20px;
+	margin: 20px;
+	border-style: solid;
+	border-bottom: 1px solid grey;
+	background-color: black;
+	border-radius: 30px;
+}
+
+.article-div h1 {
+	font-size: 30px;
+	color: aliceblue;
+}
+
+.article-div h2 {
+	font-size: 24px;
+	color: red;
+}
+
+.article-div img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	left: 0px;
+	top: 0px;
+}
+
+.article-div p, .article-div a {
+	font-size: 18px;
+	color: antiquewhite
+}
+
+.articles-div
+{
+	min-width: 100px;
+	max-width: 800px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+.main-content
+{
+	margin: 0 ,auto;
+}
+
+.button-show-more{
+	display: block;
+	position: relative;
+	width: 100px;
+	margin: 0 auto;
+	padding: 5px;
+	border-color: brown;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;	
+	border-radius: 10px;
+	background-color: black;
+	color: aliceblue;
+}
+
+#search-line
+{
+	float:right;
+	position: relative;
+ 	display: block;
+	width: 150px;
+	margin-left: 5px;
+	padding: 5px;
+	border-color: brown;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;	
+	border-radius: 10px;
+	background-color:  rgb(189, 161, 161);
+	color: aliceblue;
+}
+
+#search-button{
+	float:right;
+	width: 100px;
+	margin-left: 5px;
+	padding: 5px;
+	border-color: brown;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;	
+	border-radius: 10px;
+	background-color:black;
+	color: aliceblue;
+}
+
+.find-area
+{
+	display: block;
+	min-height: 50px;
+}
+
+
